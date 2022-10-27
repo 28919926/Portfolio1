@@ -1,4 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # PORTFOLIO MOBILE 
 
@@ -22,13 +21,10 @@ I have used HTML and CSS  languages as major languages at first approach with fl
 ## Getting Started
 
 In order to setup a local copy of this project, dont worry all you need to do is to get started with a simple step.
-Run git clone + https://github.com/28919926/Portfolio-Mobile.git on your git bash or VScode
+Run git clone on your git bash or VScode
 
 
 To get a local copy up and running follow these simple example steps.
-
-## VIEW PAGE
-Incase you may be intrested in viewing my page you can visit https://28919926.github.io/Portfolio-Mobile/ for more information.
 
 ### Prerequisites
 Basic knowledge of HTML and CSS.
