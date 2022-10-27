@@ -1,78 +1,75 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700;900&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400&display=swap");
 
 * {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
-    height: 74px;
-    display: flex;
-    justify-content: space-between;
-    background-image: url(/images/imagenav.svg);
-background-repeat: no-repeat;
-flex-direction: row-reverse;
-align-items: center;
+  height: 74px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(/images/imagenav.svg);
+  background-repeat: no-repeat;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 
 .nav {
-justify-content: space-between;
-display: flex;
-
+  justify-content: space-between;
+  display: flex;
 }
-
 
 #menu {
-    width: 20px;
-    height: 14px;
-    left: 284px;
-    top: 19px;
-   padding-right: 20px;
+  width: 20px;
+  height: 14px;
+  left: 284px;
+  top: 19px;
+  padding-right: 20px;
 }
-.headline {
-    width: 288px;
-height: 336px;
-left: 16px;
-top: 104px;
-padding: 30px 16px;
 
+.headline {
+  width: 288px;
+  height: 336px;
+  left: 16px;
+  top: 104px;
+  padding: 30px 16px;
 }
-.name{
-    width: 220px;
-    height: 100px;
-    left: 16px;
-    top: 104px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 100%;
-    color: #1A2236;
+
+.name {
+  width: 220px;
+  height: 100px;
+  left: 16px;
+  top: 104px;
+  font-family: 'Playfair Display',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
 }
 
 .p-text {
-    width: 288px;
-height: 126px;
-left: 16px;
-top: 224px;
-margin-top: 20px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 21px;
-letter-spacing: -0.01em;
-color: #1A2236;
+  width: 288px;
+  height: 126px;
+  left: 16px;
+  top: 224px;
+  margin-top: 20px;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
 }
 
 .collabo {
-    margin-top: 40px;
-    background: black;
-    color: white;
-    font-size: 16px;
-    padding: 12px 30px;
-    width: 100%;
-    border: none;
-
-  
+  margin-top: 40px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  padding: 12px 30px;
+  width: 100%;
+  border: none;
 }
