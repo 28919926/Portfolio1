@@ -3,11 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-.headwrap {
-  height: 330px;
-  width: 320px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .header {
@@ -38,8 +34,6 @@
 }
 
 .name {
-  padding-right: 84px;
-  flex-wrap: wrap;
   font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: 200;
@@ -50,7 +44,6 @@
 
 .p-text {
   margin-top: 20px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -65,8 +58,13 @@
   color: white;
   font-size: 16px;
   padding: 12px 30px;
-  width: 100%;
+  display: flex;
+  justify-content: center;
   cursor: pointer;
+}
+
+.collabo i {
+  padding-left: 15px;
 }
 
 button:hover {
@@ -86,4 +84,104 @@ button:active {
   background-repeat: no-repeat;
   height: 200px;
   background-size: contain;
+}
+
+.name2 {
+  margin: 40px 16px;
+}
+
+.card_work {
+  width: 100%;
+  justify-content: center;
+  background-color: #1a2236;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.imgcard {
+  min-width: 100%;
+}
+
+.project_details {
+  display: flex;
+  height: 156px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #fff;
+  padding: 20px 36px 20px 20px;
+}
+
+.project_text {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: -10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.languages {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.languages li {
+  color: #1a2236;
+  background: #98dede;
+  padding: 4px 7px;
+  list-style: none;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.see_project {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 9px 15px;
+  border: 1px solid white;
+  margin-top: 10px;
+}
+
+.about {
+  padding: 30px 16px 30px 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box_info {
+  padding: 70px;
+  height: 200px;
+  margin-top: 40px;
+  color: #fff;
+}
+
+#language {
+  background-color: #1c528a;
+  background-image: url(/images/skillimg.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+#framework {
+  background-color: #e2505c;
+  background-image: url(/images/framework.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+#skill {
+  background-color: #febf52;
+  background-image: url(/images/skill.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.box_info ul {
+  padding-left: 18px;
+  margin-top: 20px;
 }
