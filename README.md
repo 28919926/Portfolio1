@@ -1,62 +1,53 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# PORTFOLIO MOBILE 
 
-> Description the project.
+Portfolio is my first project at microverse and it has been first created from the mobile version view.
+I have used HTML and CSS  languages as major languages at first approach with flexbox as the main layout to make the page responsive.
 
 
 ## Built With
 
 - Major languages
+ 1.HTML
+ 2.CSS
+
 - Frameworks
+  None
+
 - Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+  GITHUB, Linters and Git.
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+In order to setup a local copy of this project, dont worry all you need to do is to get started with a simple step.
+Run git clone + https://github.com/28919926/Portfolio1.git on your git bash or VScode
 
 ### Prerequisites
+Basic knowledge of HTML and CSS.
 
-### Setup
 
 ### Install
+In VScode/Atom
 
 ### Usage
+To make Portfolio website for users and clients.
 
-### Run tests
+## Author
 
-### Deployment
+👤 **DESMOND WANJALA**
 
+- GitHub: [@githubhandle](https://github.com/28919926)
+- Twitter: [@twitterhandle](https://twitter.com/wanjala_desmond)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/wanjala-desmond-000927b6/)
 
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/28919926).
 
 ## Show your support
 
@@ -64,12 +55,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Gives thanks to God and my daughter for the support 
+- Thanks to my friend Vivian for the inspiration and microverse community.
 
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
