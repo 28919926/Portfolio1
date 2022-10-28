@@ -35,6 +35,7 @@
   display: flex;
   flex-direction: column;
   padding: 30px 16px;
+ 
 }
 
 .name {
@@ -61,7 +62,7 @@
 
 .collabo {
   margin-top: 40px;
-  background: black;
+  background: #1A2236;
   color: white;
   font-size: 16px;
   padding: 12px 30px;
@@ -79,4 +80,11 @@ button:active {
   color: #1a2236;
   background-color: #ffff;
   border: 2px solid #1a2236;
+}
+
+.imaghead {
+ margin-top: 32px;
+ width: 320px;
+height: 160px;
+background: #C4C4C4;
 }

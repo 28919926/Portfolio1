@@ -22,10 +22,7 @@ I have used HTML and CSS  languages as major languages at first approach with fl
 ## Getting Started
 
 In order to setup a local copy of this project, dont worry all you need to do is to get started with a simple step.
-Run git clone on your git bash or VScode
-
-
-To get a local copy up and running follow these simple example steps.
+Run git clone + https://github.com/28919926/Portfolio1.git on your git bash or VScode
 
 ### Prerequisites
 Basic knowledge of HTML and CSS.
