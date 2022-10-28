@@ -28,7 +28,7 @@
 #menu {
   width: 20px;
   height: 14px;
-  padding-right: 20px;
+  padding-right: 16px;
 }
 
 .headline {
@@ -81,9 +81,9 @@ button:active {
   border: 2px solid #1a2236;
 }
 
-.imaghead {
-  margin-top: 32px;
-  width: 320px;
-  height: 160px;
-  background: #c4c4c4;
+.bgimg {
+  background-image: url(/images/headline.svg);
+  background-repeat: no-repeat;
+  height: 200px;
+  background-size: contain;
 }
