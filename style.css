@@ -185,3 +185,16 @@ button:active {
   padding-left: 18px;
   margin-top: 20px;
 }
+
+.form {
+  display: flex;
+  width: 322px;
+height: 813px;
+left: -2px;
+  background-image: url(/images/imagenav.svg);
+  background-repeat: no-repeat;
+}
+
+#name-form {
+ padding-top: 40px;
+}
