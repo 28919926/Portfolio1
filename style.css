@@ -217,6 +217,7 @@ footer {
 
 .footer-list {
   list-style: none;
+  margin-top: 32px;
 }
 
 label {
