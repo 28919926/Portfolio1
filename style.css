@@ -185,3 +185,76 @@ button:active {
   padding-left: 18px;
   margin-top: 20px;
 }
+
+footer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  background-size: contain;
+  width: auto;
+}
+.footer_img {
+  background-image: url(/images/imagenav.svg);
+  background-repeat: no-repeat;
+  height: 74px;
+  background-size: contain;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form {
+  margin-top: 50px;
+  padding: 0 16px 30px 16px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-list {
+  list-style: none;
+
+}
+
+label {
+  color: #7d7c84;
+  padding: 10px 0 0 12px;
+  font-size: 10px;
+}
+
+input,
+label {
+  resize: none;
+  width: 90vw;
+  display: block;
+  border: none;
+}
+
+textarea {
+  padding: 15px 0 30px 16px;
+  resize: none;
+  height: 112px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+}
+
+input,
+textarea:focus {
+  outline: none;
+  color: #1a2236;
+  font-size: 14px;
+}
+
+.inputfield {
+  font-family: 'Poppins', sans-serif;
+  height: 52px;
+  overflow: hidden;
+  width: 100%;
+}
+
