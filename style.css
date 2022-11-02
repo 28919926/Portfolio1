@@ -193,7 +193,7 @@ footer {
   background-size: contain;
   width: auto;
 }
-.footer_img {
+.form_img {
   background-image: url(/images/imagenav.svg);
   background-repeat: no-repeat;
   height: 74px;
@@ -230,7 +230,7 @@ label {
   resize: none;
   width: 90vw;
   display: block;
-  border: none;
+ border: none;
 }
 
 textarea {
@@ -256,5 +256,44 @@ textarea:focus {
   height: 52px;
   overflow: hidden;
   width: 100%;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.footer_section {
+flex-direction: column;
+  /* height: 150px; */
+  background-color: #1a2236;
+  display: flex;
+  color: #fff;
+  
+  padding: 32px 16px 40px 16px;
 }
 
+.footer_resume {
+  display: flex;
+ margin-left: 10px;
+ 
+  color: #92DCDC;
+  font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+}
+.footer_resume i {
+  padding-left: 5px;
+}
+
+.social_icon {
+  display: flex;
+justify-content: space-between;
+margin-top: 35px;
+}
+
+.social_icon li {
+  list-style: none;
+  justify-content: space-between;
+  margin-right: 15px;
+}
