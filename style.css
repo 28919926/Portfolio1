@@ -194,6 +194,12 @@ footer {
   width: auto;
 }
 
+.form-cont {
+  height: 813px;
+  top: 4129px;
+  background: #f9f9fa;
+}
+
 .form_img {
   background-image: url(/images/imagenav.svg);
   background-repeat: no-repeat;
@@ -229,9 +235,17 @@ label {
 input,
 label {
   resize: none;
-  width: 90vw;
+  width: 100%;
   display: block;
   border: none;
+  height: 60px;
+  margin-top: -12px;
+  background: #fff;
+}
+
+input,
+::placeholder {
+  padding-left: -2px;
 }
 
 textarea {
