@@ -124,15 +124,17 @@ button:active {
   flex-direction: row;
   font-size: 12px;
   font-weight: 300;
+  
 }
 
 .languages li {
   color: #1a2236;
   background: #98dede;
-  padding: 4px 7px;
+  padding: 3px 7px;
   list-style: none;
   text-align: center;
   margin-right: 10px;
+  float: right;
 }
 
 .see_project {
