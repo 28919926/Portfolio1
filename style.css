@@ -195,9 +195,8 @@ footer {
 }
 
 .form-cont {
-  height: 813px;
-  top: 4129px;
   background: #f9f9fa;
+  margin-top: 50px;
 }
 
 .form_img {
