@@ -311,3 +311,214 @@ textarea:focus {
   justify-content: space-between;
   margin-right: 15px;
 }
+
+.nav_link {
+  display: none;
+ 
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  .header {
+    background: none;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    border-bottom: 1px solid #dddfe6;
+   flex-direction: row;
+   
+  }
+  .nav_link  {
+    display: inline-block;
+    
+  }
+  .nav_link ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    
+  }
+.nav_link li {
+  margin-right: 50px;
+}
+ #menu {
+  display: none;
+ }
+ .bgimg {
+  display: none;
+ }
+ .headline {
+ padding: 0;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+ }
+ .desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  margin-left: 160px;
+
+ }
+
+ .infoimg {
+ margin-left: auto;
+  height: 850px;
+  width: 60%;
+  background-image: url(images/image-geometry_1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+background-position: top right;
+
+
+ 
+}
+.desktop {
+  background-image: url(images/imgdots.svg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: initial;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+} 
+.card_work {
+  background-color: transparent;
+}
+.works {
+  margin-top: 250px;
+  background: transparent;
+}
+.project_desktop {
+  width: 30%;
+
+}
+.project_desktop h2 {
+  transform: rotate(270deg);
+  font-size: 110px;
+  margin-bottom: -31vh;
+}
+#card1 {
+  width: 82%;
+  margin-left: auto;
+}
+.img_dot {
+  background-image: url(images/imgdots.svg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-position: top left;
+  width: 60%;
+  margin-left: auto;
+}
+#project1 {
+  margin-top: -241px;
+  
+  height: 200px;
+}
+.project_details{
+  background-color: #1a2236;
+}
+.sec_third {
+  width: 99vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.bgimg1 {
+  height: 350px;
+  width: 50%;
+  background-image: url(images/image-geometry_2.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-left: -190px;
+}
+
+#card2 {
+  margin-top: 80px;
+  width: 35%;
+  margin-left: 60px;
+}
+
+#card3 {
+  margin-left: auto;
+  width: 30%;
+}
+
+#card3 .project_details {
+  height: 190px;
+  margin-top: -220px;
+  width: 85%;
+}
+
+.four_five {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+  height: 71vh;
+}
+
+.bgimg2{
+  width: 5%;
+  background-image: url(images/image-geometry_3.svg);
+  background-repeat: no-repeat;
+  background-position-x: bottom right;
+  margin-top: 100px;
+
+}
+
+ #card4 {
+  width: 30%;
+  margin-top: -44px;
+  margin-right: 89px;
+}
+
+
+#card5 {
+  width: 60%;
+  margin-left: 61px;
+}
+
+#card5 img {
+width:60%;
+}
+
+.lastcard {
+  width: 87.5vw;
+  display: flex;
+}
+
+#card2 .project_details {
+  display: none;
+}
+
+#card4 .project_details {
+  display: none;
+}
+
+#card5 .project_details {
+  display: none;
+}
+
+#card6 .project_details {
+  display: none;
+}
+
+.lastbg {
+  width: 95%;
+  background: url(assets/image-geometry_5.svg) top left no-repeat, url(assets/image-geometry_4.svg) top right no-repeat;
+}
+
+#card6 {
+  width: 50%;
+}
+
+}
